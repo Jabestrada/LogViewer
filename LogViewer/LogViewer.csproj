@@ -124,12 +124,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CloneMonitoringTool\LogProcessor\LogProcessor.csproj">
-      <Project>{5e34f2dc-b3e1-46bb-82ba-37df0324a278}</Project>
-      <Name>LogProcessor</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Icons\Hopstarter-3d-Cartoon-Vol3-Windows-Log-Off.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Icons\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogProcessor\LogProcessor.csproj">
+      <Project>{5e34f2dc-b3e1-46bb-82ba-37df0324a278}</Project>
+      <Name>LogProcessor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

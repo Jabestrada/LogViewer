@@ -1,28 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogViewer", "LogViewer\LogViewer.csproj", "{7DD0EE97-C700-46FF-A395-16DE93BF146A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessor", "..\CloneMonitoringTool\LogProcessor\LogProcessor.csproj", "{5E34F2DC-B3E1-46BB-82BA-37DF0324A278}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessorTests", "..\CloneMonitoringTool\LogProcessorTests\LogProcessorTests.csproj", "{001E89C5-0E25-4448-9C29-863D6BB7CECF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProcessor", "LogProcessor\LogProcessor.csproj", "{5E34F2DC-B3E1-46BB-82BA-37DF0324A278}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs2010.accenture.com/tfs/bang6tpcprod
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = LogViewer\\LogViewer.csproj
-		SccProjectName1 = LogViewer
-		SccLocalPath1 = LogViewer
-		SccProjectUniqueName2 = ..\\CloneMonitoringTool\\LogProcessor\\LogProcessor.csproj
-		SccProjectName2 = ../CloneMonitoringTool/LogProcessor
-		SccLocalPath2 = ..\\CloneMonitoringTool\\LogProcessor
-		SccProjectUniqueName3 = ..\\CloneMonitoringTool\\LogProcessorTests\\LogProcessorTests.csproj
-		SccProjectName3 = ../CloneMonitoringTool/LogProcessorTests
-		SccLocalPath3 = ..\\CloneMonitoringTool\\LogProcessorTests
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -36,10 +21,6 @@ Global
 		{5E34F2DC-B3E1-46BB-82BA-37DF0324A278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E34F2DC-B3E1-46BB-82BA-37DF0324A278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E34F2DC-B3E1-46BB-82BA-37DF0324A278}.Release|Any CPU.Build.0 = Release|Any CPU
-		{001E89C5-0E25-4448-9C29-863D6BB7CECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{001E89C5-0E25-4448-9C29-863D6BB7CECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{001E89C5-0E25-4448-9C29-863D6BB7CECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{001E89C5-0E25-4448-9C29-863D6BB7CECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
